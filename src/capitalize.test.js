@@ -12,6 +12,6 @@ describe('capitalize function', () => {
   });
 
   it('should return null if no parameter is passed', () => {
-    expect(capitalizeFirstLetter().toBe(null));
+    expect(capitalizeFirstLetter()).toBeNull();
   });
 });
