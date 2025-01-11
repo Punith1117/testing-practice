@@ -15,5 +15,9 @@ describe('reverse string function', () => {
 
     it('should return null if a non-string value is passed', () => {
         expect(reverseString(123)).toBeNull();
-    })
+    });
+
+    it('should modify only first parameter if more than one parameter is passed', () => {
+        expect(reverseString('hello', 'world')).toBe('olleh');
+    });
 })
