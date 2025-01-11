@@ -12,4 +12,8 @@ describe('reverse string function', () => {
     it('should return null if no parameter is passed', () => {
         expect(reverseString()).toBeNull();
     });
+
+    it('should return null if a non-string value is passed', () => {
+        expect(reverseString(123)).toBeNull();
+    })
 })
