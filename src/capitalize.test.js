@@ -10,4 +10,8 @@ describe('capitalize function', () => {
   it('should return correct value for each different inputs', () => {
     expect(capitalizeFirstLetter('hello')).toBe('Hello');
   });
+
+  it('should return null if no parameter is passed', () => {
+    expect(capitalizeFirstLetter().toBe(null));
+  });
 });
