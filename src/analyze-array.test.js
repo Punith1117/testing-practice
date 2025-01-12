@@ -12,4 +12,12 @@ describe('analyzeArray function', () => {
             min: 1
         })
     })
+
+    it('should contain maximum of array', () => {
+        let arr = [2, 3, 1];
+        expect(analyzeArray(arr)).toEqual({
+            min: 1,
+            max: 3
+        })
+    })
 })
