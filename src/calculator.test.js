@@ -17,4 +17,8 @@ describe('calculator object', () => {
     it('should multiply two numbers', () => {
         expect(calc.multiply(3, 4)).toBe(12);
     })
+
+    it('should return null if a number is divided by 0', () => {
+        expect(calc.divide(3, 0)).toBeNull();
+    })
 })
