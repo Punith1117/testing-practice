@@ -22,7 +22,7 @@ describe('calculator object', () => {
         expect(calc.divide(3, 0)).toBeNull();
     })
 
-    it('should return result rounded off to two decimal places when parameters are not integers', () => {
+    it('should return result rounded off to two decimal places', () => {
         expect(calc.divide(5, 3)).toBe(1.67);
     })
 })
