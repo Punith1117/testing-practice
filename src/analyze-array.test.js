@@ -5,4 +5,11 @@ describe('analyzeArray function', () => {
         let arr = [1, 2, 3]
         expect(analyzeArray(arr)).toBeInstanceOf(Object);
     })
+
+    it('should contain minimum of array', () => {
+        let arr = [2, 3, 1];
+        expect(analyzeArray(arr)).toEqual({
+            min: 1
+        })
+    })
 })
