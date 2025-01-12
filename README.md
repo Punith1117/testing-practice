@@ -1,4 +1,4 @@
-# web-dev-template
+# A submission in Odin Project about Testing
 
 **What I learnt:**
 - What is TDD(Test Driven Development)  
