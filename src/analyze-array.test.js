@@ -20,4 +20,9 @@ describe('analyzeArray function', () => {
         let arr = [1, 2, 3, 4, 5];
         expect(analyzeArray(arr)).toHaveProperty('average', 3)
     })
+
+    it('should contain length of array', () => {
+        let arr = [1, 2, 3];
+        expect(analyzeArray(arr)).toHaveProperty('length', 3)
+    })
 })
