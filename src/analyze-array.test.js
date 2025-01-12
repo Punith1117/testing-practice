@@ -15,4 +15,9 @@ describe('analyzeArray function', () => {
         let arr = [2, 3, 1];
         expect(analyzeArray(arr)).toHaveProperty('max', 3)
     })
+
+    it('should contain average of array', () => {
+        let arr = [1, 2, 3, 4, 5];
+        expect(analyzeArray(arr)).toHaveProperty('average', 3)
+    })
 })
