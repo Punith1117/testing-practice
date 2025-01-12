@@ -8,4 +8,8 @@ describe('Caesar-Cipher function', () => {
     it('should return correct outputs for different inputs', () => {
         expect(caesarCipher('abc', 3)).toBe('def')
     })
+
+    it('should not alter punctuations', () => {
+        expect(caesarCipher('Hello, World!', 3)).toBe('Khoor, Zruog!')
+    })
 })
