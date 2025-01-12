@@ -21,5 +21,7 @@ export let analyzeArray = (arr) => {
     obj.min = min
     obj.max = max
     obj.average = Math.round((sum/arrLen) * 100) / 100
+    obj.length = arrLen
+    
     return obj
 }
